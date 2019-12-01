@@ -1,4 +1,4 @@
-package elte.datatype;
+package bag.datatype;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 public class ListBag<T> extends Bag<T> {
-    List<T> bag;
+    private List<T> bag;
 
     public ListBag() {
         List<T> bag = new ArrayList<>();

@@ -1,4 +1,4 @@
-package elte.datatype;
+package bag.datatype;
 
 import java.util.*;
 

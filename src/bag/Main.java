@@ -1,4 +1,4 @@
-package elte;
+package bag;
 
 public class Main {
 

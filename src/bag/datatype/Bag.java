@@ -1,4 +1,4 @@
-package elte.datatype;
+package bag.datatype;
 
 import java.util.*;
 
@@ -91,7 +91,7 @@ public abstract class Bag<T> {
 //        });
 //
 //        items.sort((i1, i2) -> Integer.compare(getMultiplicity(i1), getMultiplicity(i2)));
-//        items.sort(Comparator.comparingInt(this::getMultiplicity));
+        items.sort(Comparator.comparingInt(this::getMultiplicity));
         return items;
     }
 }
